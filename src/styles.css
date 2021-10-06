@@ -1,0 +1,41 @@
+.App {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: auto;
+}
+body {
+  background-color: #b7f8e8;
+}
+.btnDiv {
+  padding: 0.5rem;
+}
+button {
+  padding: 1rem;
+  margin: 0.6rem;
+  color: Black;
+  font-size: 15px;
+  background-color: #00fcbd;
+  font-weight: bolder;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 5px 10px grey;
+}
+button:hover,
+li:hover {
+  color: white;
+  font-weight: bold;
+  border: 1px solid;
+  background-color: black;
+  transition: 0.6s;
+}
+button:active {
+  background-color: black;
+  color: white;
+}
+.list-Div {
+  max-width: 500px;
+  margin: auto;
+}
+ul {
+  list-style-type: none;
+}
